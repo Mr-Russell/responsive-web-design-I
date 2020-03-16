@@ -99,6 +99,7 @@ body {
 	align-items: center;
 	justify-content: space-between;
 }
+
 .navigation .logo {
 	margin-left: 10%;
 }
@@ -171,7 +172,6 @@ header .getStarted {
 	display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: ;
 	width: 35%;
 	margin: 2px 8%;
 }
@@ -420,6 +420,9 @@ li {
 
 /* ========== RESPONSIVE DESIGN (for mobile) ========== */
 
+
+/* === Tablet --- */
+
 @media (max-width: 800px) {
     
     body {
@@ -442,5 +445,72 @@ li {
 
     #index-head #circle-img {
         display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* === Phone --- */
+
+@media (max-width: 500px) {
+    body {
+        border: 2% solid white;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .navigation nav {
+       flex-direction: column;
+    }
+
+    .navigation nav a {
+        width: 100%;
+        border-bottom: 1px solid gray;
+        text-align: center;
+        padding: 4% 0;
+    }
+
+    .navigation nav a:first-child {
+        border-top: 1px solid gray;
+    }
+
+    header .getStarted {
+        text-align: center;
+        width: 100%;
+        align-items: center;
+    }
+
+    /* h1 {
+        font-size: 250%
+    } */
+
+    #start {
+        font-size: 100%;
+        width: 40%;
+    }
+
+    .top-info {
+        flex-direction: column;
+    }
+
+    .top-info div {
+        width: 100%;
+        margin: 5% 0;
+    }
+
+    .bottom-info {
+        flex-direction: column;
+    }
+
+    .bottom-info div {
+        width: 100%;
+        margin: 5% 0;
     }
 }
