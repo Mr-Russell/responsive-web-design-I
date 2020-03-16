@@ -481,6 +481,16 @@ li {
         border-top: 1px solid gray;
     }
 
+    #index-head {
+        padding-top: 5%;
+        padding-bottom: 10%;
+    }
+
+    #service-head {
+        padding-bottom: 8%;
+        margin-bottom: 8%;
+    }
+
     header .getStarted {
         text-align: center;
         width: 100%;
@@ -494,6 +504,10 @@ li {
     #start {
         font-size: 100%;
         width: 40%;
+    }
+
+    header .services-header-img {
+        margin: 15% 0;
     }
 
     .top-info {
@@ -512,5 +526,24 @@ li {
     .bottom-info div {
         width: 100%;
         margin: 5% 0;
+    }
+
+    #service-list {
+        flex-direction: column;
+        padding-bottom: 8%;
+        margin-bottom: 8%;
+    }
+
+    .specialty {
+        width: 100%;
+    }
+
+    #facts {
+        flex-direction: column;
+    }
+
+    section #facts-words {
+        width:100%;
+        margin-bottom: 4%;
     }
 }
