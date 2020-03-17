@@ -539,6 +539,33 @@ li {
         margin: 4% 0;
     }
 
+    .specialty div button {
+        padding: 2% 10%;
+        border-radius: 6px;
+        background: white;
+        box-shadow: 0;
+        margin: 0 auto;
+        width: 50%;
+        font-size: 80%;
+    }
+
+    /* .specialty div {
+       display: flex;
+       justify-content: center; */
+       /* margin: 0 auto;
+       width: 100%;
+       border: 3px soild red;
+    } */
+
+    .button-box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .specialty:last-child {
+        justify-content: center;
+    }
+
     #facts {
         flex-direction: column;
     }
